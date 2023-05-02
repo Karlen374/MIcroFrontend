@@ -1,0 +1,36 @@
+.usersList {
+  margin-top:20px;
+  padding:0 40px;
+  &__Nav{
+    a{
+      margin:0px 10px;
+      &:hover{
+        color:green;
+      }
+    }
+    
+  }
+}
+.spinnerList{
+  padding: 0 40px;
+  span{
+    margin:10px 0;
+  }
+}
+
+.moneyItem{
+  display:flex;
+  padding:10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border:1px solid grey;
+  border-radius: 5px;
+  margin: 10px 0;
+
+  &__values{
+    display: flex;
+    div{
+      margin:0px 10px;
+    }
+  }
+}

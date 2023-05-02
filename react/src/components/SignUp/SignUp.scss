@@ -1,0 +1,14 @@
+.signUp{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  grid-gap:20px;
+  &__Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap:20px;
+  }
+}
